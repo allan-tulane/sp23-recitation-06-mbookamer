@@ -78,7 +78,7 @@ def huffman_cost(C, f):
     return cost
     pass
 
-f = get_frequencies('f1.txt')
+f = get_frequencies('asyoulik.txt')
 print("Fixed-length cost:  %d" % fixed_length_cost(f))
 T = make_huffman_tree(f)
 C = get_code(T)
