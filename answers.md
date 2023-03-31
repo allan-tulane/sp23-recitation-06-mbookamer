@@ -26,4 +26,6 @@ fields.c    |                     |                |
 
 - **e.**
 
+Over our alphabet $\Sigma$ we would expect the cost to be a sum from i =1 to i=n of $i^2$x, where x is our frquency of every node. This is because at every level, we have i nodes. Then, every level has a cost of $i^2$x, since the first level has 1 node encoded with 1 bit with frquency f, the second level has 2 nodes encoded with 2 bits with frequency f, and so on. In order to find the total cost, we just add all the levels together until we get to the $n^2$x level. This is consistent across all documents so long as the document uses either the whole $\Sigma$ or the same unique characters and each occurs with the same frequency x. 
+
 
